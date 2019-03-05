@@ -3,6 +3,7 @@
 ## 2. Contacts:
   * **Tel:** +375 29 222 22 22  
   * **Facebook:** [Max Sv](https://www.facebook.com/max.sv.96)
+  * **Telegram:** [@BlackPanteraAga](https://t.me/BlackPanteraAga)
 
 ## 3. Summary:
 I am interested in web development and have some experience in it.
