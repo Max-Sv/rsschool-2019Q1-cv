@@ -42,9 +42,12 @@ function partition(items, left, right) {
 
 ## 7. Education: 
 **Belarusian National Technical University**
+
 *INFORMATION TECHNOLOGIES AND ROBOTICS FACULTY*
 >2006 - 2009
+
 **Belarusian National Technical University**
+
 *INTERNATIONAL INSTITUTE OF DISTANCE EDUCATION*
 *"Information Systems and Technologies" Department*
 >2016 - 2021
