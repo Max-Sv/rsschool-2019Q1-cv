@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans:700');
+body {
+  max-width: 1020px;
+
+  margin-left: auto;
+  margin-right: auto;
+  
+  font-family: 'PT Sans', sans-serif;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom: 1%;
+  
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffffff;  
+  text-transform: uppercase;
+}
+
+h2::first-letter {
+  color: #f13f3f;  
+  }
+
+a {
+  text-decoration: none;
+  color: #a5a5a5;
+  font-size: 0.8em; 
+}
+
+ul{
+  margin-left: 25%;
+}
+
+header {
+  height: 50px;
+
+  background-color: #202020;
+}
+
+header span {
+  color: #f13f3f;
+}
+
+img {
+  padding: 30px;
+  float: left;
+}
+
+main {
+  background-color: #464444;
+}
+
+section {
+  margin-bottom: 1%;
+}
+
+.contacts {
+  padding-top: 2%;
+}
+
+.summary p {
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #a5a5a5;
+}
+
+.skills {
+  margin-bottom: 2%;
+}
+
+.code-examples h2{
+  padding-left: 1%;
+}
+
+.code-examples pre{
+  margin-left: 3%;
+  margin-right: 42%;
+
+  border-left: 1px solid #a5a5a5;
+  border-right: 1px solid #a5a5a5;  
+}
+
+.work-experiance {
+  padding-left: 1%;
+}
+
+.work-experiance p {
+  font-size: 0.8em;
+  color: #a5a5a5;
+
+  border-left: 1px solid #a5a5a5;
+  padding-left: 1%;
+}
+
+.education {
+  padding-left: 1%;
+}
+
+.education em {
+  font-size: 0.9em;
+}
+
+.education p {
+  font-size: 0.8em;
+  color: #a5a5a5;
+
+  border-left: 1px solid #a5a5a5;
+  padding-left: 1%;
+}
+
+.english-level {
+  padding-left: 1%;
+}
+
+footer {
+  background-color: #1e1e1e;
+}
