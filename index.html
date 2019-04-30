@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>HTML, CSS & Git Basics</title>
+</head>
+<body>
+  <header>
+    <img src="./max.png" alt="max" width="160" height="300">
+    <h1>Maxim <span>Svilenok</span></h1>  
+  </header>
+  <main>
+    <section class="contacts">
+      <h2>Contacts:</h2>
+      <ul>
+        <li><strong>Tel: </strong><a href="tel:+375 29 222 22 22">+375 29 222 22 22</a></li>
+        <li><strong>Facebook: </strong><a href="https://www.facebook.com/max.sv.96">Max Sv</a></li>
+        <li><strong>Telegram: </strong><a href="https://t.me/BlackPanteraAga">@BlackPanteraAga</a></li>
+      </ul>
+    </section>
+    <section class="summary">
+      <h2>Summary:</h2>
+      <p>I am interested in web development and have some experience in it.
+            I want to be a JavaScript developer and offer front end solutions.</p>
+    </section>
+    <section class="skills">
+        <h2>Skills:</h2>
+        <ul>
+            <li>CSS/HTML/JavaScript</li>
+            <li>PHP/MySQL</li>
+        </ul>
+    </section>
+    <section class="code-examples">
+        <h2>Code examples:</h2>
+        <pre>
+            function Bogosort(arr) {
+                var isSorted = function(arr){
+                    for(var i = 1; i < arr.length; i++){
+                        if (arr[i-1] > arr[i]) {
+                            return false;
+                        }
+                    }
+                    return true;
+                };
+            
+                function shuffle(arr){
+                    var count = arr.length, temp, index;
+            
+                    while(count > 0){
+                        index = Math.floor(Math.random() * count);
+                        count--;
+            
+                        temp = arr[count];
+                        arr[count] = arr[index];
+                        arr[index] = temp;
+                    }
+            
+                    return arr;
+                }
+            
+               function sort(arr){
+                    var sorted = false;
+                    while(!sorted){
+                        arr = shuffle(arr);
+                        sorted = isSorted(arr);
+                    }
+                    return arr;
+                }
+            
+                return sort(arr);
+            }
+        </pre>
+    </section>
+    <section class="work-experiance">
+        <h2>Work experiance:</h2>
+        <strong>LLC Belkarplastik - 2009 to 2016</strong>
+        <p>My responsibilities included 3D modeling, cad / cam design, and also had experience in teaching and staff training</p>
+    </section>
+    <section class="education">
+        <h2>Education:</h2>
+        <strong>Belarusian National Technical University</strong><br>
+        <em>INFORMATION TECHNOLOGIES AND ROBOTICS FACULTY</em>
+        <p>2006 - 2009</p>
+        <strong>Belarusian National Technical University</strong><br>
+        <em>INTERNATIONAL INSTITUTE OF DISTANCE EDUCATION</em>
+        <em>"Information Systems and Technologies" Department</em>
+        <p>2016 - 2021</p>
+    </section>
+    <section class="english-level">
+        <h2>English Level:</h2>
+        <strong>A2: </strong><em>Pre-Intermediate</em>
+    </section>
+  </main>
+  <footer>
+    © Copyright 2019 by Maxim Svilenok
+  </footer>  
+</body>
+</html>
